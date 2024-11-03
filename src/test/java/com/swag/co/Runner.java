@@ -7,14 +7,24 @@ import org.junit.runner.RunWith;
 
 import java.io.BufferedReader;
 import java.io.IOException;
+<<<<<<< HEAD
 import java.io.InputStreamReader;
 
+=======
+import java.io.File;
+import java.io.InputStreamReader;
+import java.util.Collections;
+>>>>>>> origin/main
 
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
         features = "src/test/resources/features",
         glue = "com.swag.co.definitions",
+<<<<<<< HEAD
         tags = "@cotizarEnvio"
+=======
+        tags = ""
+>>>>>>> origin/main
 )
 public class Runner {
 
